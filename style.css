@@ -1,0 +1,200 @@
+.header{
+    padding-top: 5px;
+    height: 800px;
+    text-align: center;
+    color: rgb(235, 223, 223);
+    background: #222 url(img/Home.jpg) no-repeat center bottom;
+    background-size: cover;
+}
+.menu{
+    margin-top: 10px;
+   opacity: 0.9;
+}
+.header a{
+    font: 30px Gill Sans, sans-serif;
+    color: rgb(235, 223, 223);
+    margin-right: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.greetings h1 {
+    margin-top: 170px;
+    margin-bottom: 250px;
+    font: 75px Gill Sans, sans-serif;
+    color: rgb(255, 255, 255);
+}
+.header img {
+    margin-right: 40px;
+    height: 150px;
+     width: 200px;
+     margin-bottom: -55px;
+}
+
+#full {
+    padding: 30px;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 40px 40px orange inset, 0 0 0 0 orange;
+    font: 25px Gill Sans, sans-serif;
+    color: white;
+   display: inline-block; 
+   transition: .15s ease-in-out;
+  }
+  #full:hover {
+    box-shadow: 0 0 10px 0 orange inset, 0 0 10px 4px orange;
+    color: orange;
+  }
+
+    #boop {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        background: whitesmoke;
+        align-items: center;
+        font: 30px Gill Sans, sans-serif;
+    }
+    .boop{
+        margin-left: 100px;
+        justify-content: center;
+    }
+    .boop img{
+   
+        width: 40%;
+        padding: 20px;
+        margin-left: 70px;
+        }
+       .boop:hover{ 
+            animation: pulse 1s infinite;
+            animation-timing-function: ease-in-out; 
+            cursor: pointer;
+          }
+          
+          @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1)};
+            100% { transform: scale(1); }
+            }
+          
+          
+
+ #breeds {
+        margin-bottom: 50px;
+        background:white;
+        padding: 70px;
+        font: 30px Gill Sans, sans-serif;
+        color: black;
+        text-align: center;
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        max-width: 2400px;
+        margin: 10px;
+        margin-top: 20px;
+    } 
+     .pig {
+        margin: 10px;
+        margin-bottom: 35px;
+       width: 30%;
+       text-align: center;
+    }
+    
+    .pig img{
+        height: 60%;
+        width: 30%;
+        margin: 3px;
+        
+    }
+
+    #breeds h3{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font: 30px Gill Sans, sans-serif;
+        color:peru;
+    }
+  
+    .pig img:hover{
+        opacity: 1;
+         }
+
+#breeds img {
+    border-radius: 45%;
+    transition:         transform .9s;
+  }
+  #breeds img:hover {
+   transform: rotate(720deg);
+  }
+#aboutUs{ 
+            padding-bottom: 90px;
+            background-color: whitesmoke;
+            text-align:center;
+}          
+#aboutUs h2 {
+text-transform: uppercase;
+text-align: center;
+font: 30px Gill Sans, sans-serif;
+color: Black;
+ }
+  #aboutUs h3{
+    text-align: left;
+    font: 30px Gill Sans, sans-serif;
+    color: Black;
+    margin: 20px;
+          }
+ #aboutUs iframe {
+    
+              margin: 90px;
+              width: 200px; 
+              height: 700px;
+            
+}
+
+#contact{
+background: url(img/ontacts.jpg) no-repeat center bottom;
+text-align: center; 
+display: flex;
+justify-content: center;
+}
+
+#contact h2{
+    padding: 20px;
+    font: bold 65px Gill Sans, sans-serif;
+    color: white;
+    margin:0%;
+}
+
+#contact div{
+    padding: 10px;
+}
+.container2 input{
+    font:  25px Gill Sans, sans-serif; 
+    text-align: center; 
+}
+.container2 textarea{
+    font:  25px Arial, sans-serif;
+    text-align: center;
+}
+#Button{
+    margin-bottom: 20px;
+    font:  25px Gill Sans, sans-serif; 
+    padding: 10px;
+    text-align: center;   
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.social {
+   
+    width: 300px;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+.social .fab{
+    font-size: 40px;
+    margin-right: 20px;
+    cursor: pointer;
+}
